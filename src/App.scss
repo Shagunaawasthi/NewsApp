@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto');
+
+.App {
+  text-align: center;
+  background-color: white;
+  background-repeat: repeat-y;
+  background-size: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+ #logo {
+   width:80px;
+   height: 60px;
+   float:left;
+   margin-top:5px;
+   margin-left:10px;
+   border-radius: 3px;
+}
+
+ 
+
+
+  
+/* #author{
+   font-size:18px;
+   font-weight: 600;
+   color: grey;
+   float:right;
+   
+  }*/
+ .header{
+   background-color:transparent;
+   width:100%;
+   height:75px;
+ }
+ #submit-button{
+   margin-top: 5px;
+   text-align: center;
+   height:54px;
+   border-radius:8px;
+   position: relative;
+    bottom:7px;
+    background-color:rgb(0, 255, 255);
+    display: none;
+  
+ }
+ #searchData{
+   margin-top: 5px;
+   width:600px;
+   height:50px;
+   border-radius: 6px;
+   margin-left: -40px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'roboto';
+   font-weight: 100;
+ }
+#fliter-option{
+  background-color:white;
+  height:40px;
+}
+#options{
+  margin-top:10px;
+  border-radius: 3px;
+
+}
+#one{
+margin-right: 15px;
+font-family: 'Titillium Web', sans-serif;
+}
+#two{
+  margin-right: 15px;
+  margin-left: 15px;
+  font-family: 'Titillium Web', sans-serif;
+  }
+#three{
+    margin-right: 15px;
+    margin-left: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    }
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    grid-column-gap: 30px;
+    width:70vw;
+    margin: auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+  
+
+    .t1{
+      grid-column: 1/2;
+      
+      width: 390px;
+
+  
+      img{
+        position: relative;
+        width:390px;
+        overflow-y: hidden;
+         height: 270px;
+        border-radius: 6px;
+
+      }  
+      .author{
+        font-family: 'roboto';
+      }
+    }
+    .t2{ 
+      grid-column: 2/4;
+      text-align: left;
+      .title{
+        font-size : 30px;
+        font-family: 'abril fatface';
+      }
+      .desc{
+        font-size : 20px;
+        margin-top: 15px;
+        font-family: 'roboto';
+      }
+    }
+  }
